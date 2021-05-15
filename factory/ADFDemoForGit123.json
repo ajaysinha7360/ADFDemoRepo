@@ -1,0 +1,9 @@
+{
+	"name": "ADFDemoForGit123",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4b19b0f-85a7-414d-81e3-3bc8edc1a0a5",
+		"tenantId": "a40e696f-4f2b-47ae-a505-b18ba3062add"
+	}
+}
