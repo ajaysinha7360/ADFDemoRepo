@@ -1,0 +1,9 @@
+{
+	"name": "ADF-DEV-AJAYSINHA",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "07acb6a2-7cc2-439d-b831-4ec16e4521bd",
+		"tenantId": "a40e696f-4f2b-47ae-a505-b18ba3062add"
+	}
+}

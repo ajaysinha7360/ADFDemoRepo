@@ -1,0 +1,12 @@
+{
+	"name": "LS_KV_DEV",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service for KV for Dev",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KV-DEV-AJAY.vault.azure.net/"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "LS_bsdevajaysinha",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked Service for storageaccount1106",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV_DEV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sec-bsdevajaysinha-connectionstring"
+			}
+		}
+	}
+}
